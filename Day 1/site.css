@@ -1,0 +1,23 @@
+
+body {
+            background-color: green; !important
+            margin: 20pt;
+        }
+        
+        .yellowMed {
+            color: yellow;
+            font-size: 14pt;
+        }
+        
+        .yellowLg {
+            color: yellow;
+            font-size: 20pt;
+        }
+
+        .almostBaconBrown {
+            color: #c87f32;
+        }
+        
+        .corporateBlue{
+            background-color: blue;
+        }

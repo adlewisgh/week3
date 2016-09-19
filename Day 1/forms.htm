@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="site.css" />
+    </head>
+    <body>
+        <h1>My First Form</h1>
+        <form action="mailto:auri@auri.net" method="post" enctype="text/plain">
+        <fieldset>
+        <label> First Name: <input type:"text" name="firstname" id="firstName" />
+</label><br />
+        <label> Last Name: <input type:"text" name="lastName" id="lastName" />
+</label><br />
+        <label>Email Address: <input type="text" name="email" id="email" />
+</label><br />
+        <label>Get marketing junk? <input type="checkbox" name="optin" checked id="optin"/>
+</label><br />
+        <input type="submit" value="Sign me up!" />
+        <br />
+
+        <h1>Addtional Profile Info</h1>
+        <p>Choose your favorite movie:</p>
+        <select name="favorite movie" id="favorite movie">
+            <option value="1">Tron</option>
+            <option value="2">The Matrix</option>
+            <option value="3">Steel Magnolias</option>
+            </select>
+
+            <p>Additional Comments:</p>
+            <textarea id="comments" name="comments" rows="10" cols="80"></textarea>
+            </fieldset>
+        </form>
+    </body>
+</html>
