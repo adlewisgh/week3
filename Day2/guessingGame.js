@@ -8,7 +8,7 @@ function setupGame() {
     $("#message").val(" ");
 
     // come up with the answer.
-    answer = parseInt(Math.random() * 10);
+    answer = parseInt(Math.random(2) * 10);
     console.log("Cheater! Don't you dare enter " + answer);
 
     //Hide Show the approptriate divs.
